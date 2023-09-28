@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(94, 92, 92);
+}
+section{
+    text-align: center;
+}
+h3{
+    color: white;
+    margin: 50px 0;
+    font-size: 30px;
+    letter-spacing: 5px;
+    background-color: gray;
+    padding: 30px;
+    opacity: 0.6;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+p{
+    line-height: 2;
+    font-size: 16px;
+}
+
+
+.bar{
+    background-color: rgb(205, 205, 205);
+    margin-bottom: 30px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    
+}
+.menu > li{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.menu >li > a{
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.menu  a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+}
+.example-image-link img {
+    margin: 0 10px;
+    opacity: 0.6;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+.second-menu {
+    background-color:rgb(205, 205, 205);
+}
+.second-menu li{
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.second-menu li a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    
+}
+.swiper {
+    width: 1200px;
+    height: 600px;
+    z-index: -1;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.container span{
+    display: block;
+    margin: 20px 0;
+    font-style: italic;
+    color: rgb(57, 57, 57) ;
+}
+.footer{
+    width: 100%;
+   
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+}
+.footer a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+}
+.footer a:hover{
+    color: white;
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
