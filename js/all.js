@@ -15,11 +15,6 @@ $(".top").click(function (e) {
       scrollTop: 0
   }, 800); 
 });
-    
-
-
-    
-
   const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -37,13 +32,10 @@ $(".top").click(function (e) {
          shadowOffset: 100,
          shadowScale: 0.6
         },
-   
+  
         // If we need pagination
         pagination: {
           el: '.swiper-pagination',
         },
-      
       });
-    
-
 });
