@@ -1,11 +1,25 @@
 $(document).ready(function () {
-  $('.top').click(function (e) { 
-    e.preventDefault();
-    $('html,body').animate({
+  // 設置滑動到指定位置顯示
+  $(window).scroll(function () { 
+    if ($(window).scrollTop() >= 200){
+        $(".top").fadeIn();
+    }
+    else{
+        $(".top").fadeOut();
+    }
+});
+// 點擊按鈕回到上層
+$(".top").click(function (e) { 
+  e.preventDefault();
+  $("html, body").animate({
       scrollTop: 0
-    }, 800);
-  });
+  }, 800); 
+});
     
+
+
+    
+
   const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -30,5 +44,6 @@ $(document).ready(function () {
         },
       
       });
+    
 
 });

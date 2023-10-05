@@ -69,29 +69,20 @@ h2{
     font-size: 20px;
     letter-spacing: 5px;
 }
-
 p{
     line-height: 2;
     font-size: 16px;
-}
-
-
-.bar{
-    background-color: rgb(205, 205, 205);
-    margin-bottom: 30px;
-    
 }
 .menu{
     display: flex;
     justify-content: space-around;
     height: 35px;
-    
+    background-color: rgb(205, 205, 205);
+    margin-bottom: 30px; 
 }
 .menu > li{
     width: 100%;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 .menu >li > a{
     color: rgb(0, 0, 0);
@@ -126,7 +117,6 @@ p{
     font-weight: bold;
     display: block;
     padding: 10px;
-    
 }
 .swiper {
     width: 1200px;
@@ -147,15 +137,18 @@ p{
 }
 .footer{
     width: 100%;
-   
     background-color: rgb(101, 101, 101);
-    text-align: center;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    
 }
 .footer a{
     font-size: 20px;
     color: rgb(0, 0, 0);
-    display: inline-block;
-    padding: 5px;
+    padding: 10px;
+    display: block;
 }
 .footer a:hover{
     color: white;
@@ -166,4 +159,5 @@ p{
     right: 0;
     background-color: white;
     padding: 10px;
+    display: none;
 }
